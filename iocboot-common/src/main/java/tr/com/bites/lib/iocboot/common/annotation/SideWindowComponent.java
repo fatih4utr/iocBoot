@@ -21,6 +21,7 @@ public @interface SideWindowComponent {
     String titel() default "Middle Side";
     String windwoId() default "#Middle_Side";
     WINDOW_PLACEMENT placement() default  WINDOW_PLACEMENT.MIDDLE_SIDE;
+    
     public enum WINDOW_PLACEMENT {
         LEFT_SIDE,
         BOTTOM_SIDE,
