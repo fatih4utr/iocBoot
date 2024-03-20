@@ -80,6 +80,4 @@ public class DefaultMainWindow extends AbstractMainWindow {
         this.revalidate();
     }
     
-    
-    
 }
